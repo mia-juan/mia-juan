@@ -192,6 +192,10 @@ div.hero-1 ul.slick-dots{
 .side-margin{
   margin-left: 1.5rem;
   margin-right: 1.5rem;
+  @media (max-width: 580px) {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 /*------------------- Homepage testimonial slider -------------------*/
